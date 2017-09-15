@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mulan Quiz</title>
+	<link rel="stylesheet" href="float-grid.css"/>
+	<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+	<!--The header will contain the top banner with a Mulan logo and quote-->
+	<header role = "banner">
+		<img src="https://bplusmovieblog.files.wordpress.com/2012/08/mulan-title-card.png" class="banImg">
+		<div class='banQuote'>
+		<h1>No matter how the wind howls, <br> the mountain cannot bow to it.</h1>				
+		</div>
+	</header>
+
+	<main role="main">
+		<!--This div contains the contents for each page-->
+		<div class="content row">
+			<!--This div is for the opening and closing pages... it will contain the instructions to start and the results at the end-->
+			<div class="txt">
+				<span class="quote">Something Nice</span>
+			</div>
+			<div class="parImgQuest">
+			<!--This div will contain the image for each question and will be blank on the results/closing page and the start page-->
+				<div class="img">
+					<img class="qImg" src="" alt="Mulan Pic">
+				</div>
+				<!--This div will contain each question-->
+				<div class="questions">
+					<span class="quest">questionText</span>
+				</div>
+			</div>
+			<!--This div will contain the choices for the questions and on the start/end pages it will contain nav for starting quiz/restarting quiz...append/remove different buttons -->
+			<div class="choicesNav">
+				<form class="buttons" action="/signup/" method ="post">
+					<div class="navButton">
+						<input type="button" name="startQ" id="stBut" value="Start" checked>  
+					</div>		
+					<div class="qChoices">
+						<div class="choice a">
+							<input type="button" name="qChoice" id="a" class="qChoice" value="a"/>
+						</div>
+						<div class="choice b">
+							<input type="button" name="qChoice" id="b" class="qChoice" value="b"/>
+						</div>
+						<div class="choice c">
+							<input type="button" name="qChoice" id="c" class="qChoice" value="c"/>
+						</div>
+						<div class="choice d">
+							<input type="button" name="qChoice" id="d" class="qChoice" value="d"/>
+						</div>
+					</div>		
+      			</form>
+			</div>
+			<!-- this will contain the score and question they are on -->
+			<div class="results">
+				<div id='correct' class='result'>
+					numCorrect
+				</div>
+				<div id='numAns' class='result'>
+					numAns
+				</div>
+			</div>
+		</div>
+	</main>
+<!-- remove "http:" after I finish -->
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+h1 {
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.banImg {
+	height: 125px;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: black;
+}
+
+main {
+	padding-top: 140px;
+	background-image: url("https://herhighnessthecowness.files.wordpress.com/2015/04/mulan-disneyscreencaps-com-3.jpg");
+	background-size: cover;
+	padding-bottom: 200px;
+}
+
+.txt {
+	background-color: rgba(0, 0, 0, 0.85);
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
+	width: 400px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 55px;
+}
+
+.quote {
+	display: inline-block;
+	text-align: center;
+    font-family: "Helvetica";
+	font-size: 32px;
+	text-transform: uppercase;
+	color: red;
+	font-weight: 900;
+}
+
+.navButton {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.parImgQuest {
+	position: relative;
+}
+
+.img {
+	text-align: center;
+}
+
+.quest {
+	display: inline-block;
+	background-color: rgba(225, 25, 55, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Helvetica";
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 900;
+	text-align: center;
+}
+
+.qChoices {
+	text-align: center;
+	padding-top: 20px;
+	clear: both;
+	width: 53%;
+	margin: auto;
+}
+
+.respImg {
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.results {
+	padding-top: 15px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0;
+}
+
+.result {
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	background-color: rgba(0, 0, 0, 0.85);
+	font-family: "Helvetica";
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: red;
+}
